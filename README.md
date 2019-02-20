@@ -23,3 +23,12 @@ NETATTACK2 is a script written in python that can scan and attack networks. It i
 - Python
 - Linux (Kali Linux prefered)
 - Required modules can be installed at runtime
+
+## Update support ARCH && MANJERO
+  This is the brifly install for this script: 
+  
+    git clone https://github.com/LyhourChhen/arch-netattack2.git
+    cd arch-netattack2
+    sudo sh requirement.sh
+    sudo python2 netattack2.py
+## @LyhourChhen
