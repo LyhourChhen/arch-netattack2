@@ -21,24 +21,8 @@ NORMAL = "\033[0;0m"
 BOLD = "\033[;1m"
 
 def auto_installer():
-    '''
-    Just installing required modules
-    if they do not already exist
-    '''
-    print("{R}ERROR: Modules missing.{N}".format(R=RED, N=NORMAL))
-    inst = raw_input("Do you want to automatically install all requirements? (y/n): ").lower()
-
-    if inst in ('y', 'yes'):
-        print("[{Y}*{N}] Installing requirements, please stand by...".format(Y=YELLOW, N=NORMAL))
-        subprocess.call("sudo pip install netifaces", shell=True)
-        subprocess.call("sudo apt-get install python-scapy -y > {}".format(os.devnull), shell=True)
-        subprocess.call("sudo apt-get install python-nmap -y > {}".format(os.devnull), shell=True)
-        subprocess.call("sudo apt-get install python-nfqueue -y > {}".format(os.devnull), shell=True)
-	subprocess.call("sudo apt-get install nmap -y > {}".format(os.devnull), shell=True)
-        sys.exit("\n[{G}+{N}] Requirements installed.\n".format(G=GREEN, N=NORMAL))
-
-    sys.exit(0)
-
+    print("Please complete requirement by 'sudo sh requirement.sh'")
+    print("@LyhourChhen")
 '''
 Usually modules that need to be installed
 '''
