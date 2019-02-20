@@ -18,6 +18,6 @@ pip3 install netifaces
 pip2 install netifaces
 sudo pip3 install netifaces
 sudo pip2 install netifaces
-
+sudo pacman -S scapy
 echo "Thanks for installed"
 echo "@LyhourChhen"
